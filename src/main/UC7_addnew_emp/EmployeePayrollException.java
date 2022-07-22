@@ -1,0 +1,7 @@
+package addnew_emp;
+
+public class EmployeePayrollException extends Exception {
+    public EmployeePayrollException(String message) {
+        super(message);
+    }
+}
